@@ -1,6 +1,7 @@
-#include "gtest/gtest.h"
 #include "lcs.h"
+#include "gtest/gtest.h"
 
-TEST(LCSTest, Foo) {
+TEST(LCSTest, Foo)
+{
     EXPECT_EQ(foo(), 42);
 }
